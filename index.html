@@ -1,1 +1,18 @@
-<h1>HALÓ?<br/>HALÓ?</h1>
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Főoldal</title>
+</head>
+<body>
+    <h1>Üdv a weboldalon!</h1>
+    <button id="openClock">Nyisd meg a Clock oldalt</button>
+
+    <script>
+        document.getElementById("openClock").addEventListener("click", function() {
+            // Itt add meg a pontos elérési utat a HTML fájlhoz
+            window.location.href = "oldalak/clock/index.html";
+        });
+    </script>
+</body>
+</html>
